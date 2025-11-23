@@ -1,0 +1,23 @@
+INFO:     Started server process [638541]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Starting Test API Server on http://localhost:8000
+INFO:     127.0.0.1:39676 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46964 - "POST /upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40192 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40208 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35322 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35324 - "POST /upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35328 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35338 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35350 - "POST /query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35352 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35364 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35372 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35378 - "POST /visualize HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35390 - "GET /files HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54722 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53454 - "GET /datasources HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45884 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59954 - "GET /datasources HTTP/1.1" 404 Not Found
